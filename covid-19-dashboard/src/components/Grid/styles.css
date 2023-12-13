@@ -1,0 +1,9 @@
+.columnGrid{
+    padding: 5rem ;
+    margin:0 auto;
+    display: grid;
+    grid-gap:5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    justify-content: space-between;
+    align-items:center;
+}

@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "useDefineForClassFields": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "skipLibCheck": true,
+    "types": [
+      "vite/client",
+      "vitest/globals",
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@context/*": [
+        "./context/*"
+      ],
+      "@hooks/*": [
+        "./hooks/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ],
+      "@testing-utils": [
+        "./utils/test-utils"
+      ]
+    },
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "allowUmdGlobalAccess": true,
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/custom.d.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

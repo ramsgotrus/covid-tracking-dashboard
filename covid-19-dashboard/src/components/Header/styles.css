@@ -1,0 +1,27 @@
+  .headertext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-direction:column;
+    background:#007c91;
+    height: 150px;
+  }
+
+  .title{
+    font-size:35px;
+    cursor: pointer;
+    margin-top:25px;
+    padding:10px
+  }
+
+  .subTitle{
+    background-color: #ebf5f6;
+    color:black;
+    font-size:12px;
+    margin-top:20px;
+    padding:10px
+  }

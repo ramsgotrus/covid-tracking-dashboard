@@ -1,0 +1,45 @@
+
+.flex-container {
+    @media screen and (min-width: 640px){
+        display: flex;
+        margin-top:150px;
+        padding:100px
+    }    
+}
+
+.headerContainer{
+     height: 100px;
+}
+.topContainer{
+    
+}
+.mainContainer {
+    margin-bottom:40px;
+}
+
+.stats {
+    background-color: #F3F6F9;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    width: 100%
+}
+
+.trends {
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    width: 100%;
+    grid-gap:10px;
+}
+.trends .trendTitle:hover {
+    border: 2px solid  #007c91;
+    cursor: pointer;
+}
+.trendTitle{
+    /* background-color: #007c91; */
+    align-items:center;
+    display: grid;
+    border: 2px solid transparent;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
